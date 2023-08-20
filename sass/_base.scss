@@ -1,0 +1,19 @@
+$color-dark:rgba(0, 0, 0, 0.745);
+$color-lightDark:rgba(0, 0, 0, 0.645);
+$color-light:rgba(255, 255, 255, 0.69);
+$color-white:white;
+$color-primary:rgb(215, 215, 34);
+@mixin centering($top){
+position:absolute;
+top:$top;
+left:50%;
+transform:translate(-50% , -50%);
+}
+@font-face{
+    src:url(../fonts/nastalig.woff);
+    font-family:nastaligh
+}
+@font-face{
+    src:url(../fonts/simple.woff);
+    font-family:simple
+}

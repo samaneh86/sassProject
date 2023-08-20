@@ -1,0 +1,16 @@
+@import "base";
+@import "component";
+@import "layout";
+@import "responsive";
+*{
+    box-sizing:border-box;
+}
+body{
+    direction:rtl;
+    background-color: $color-dark;
+}
+.footer::before{
+display:table;
+clear:both;
+content:"";
+}
